@@ -1,0 +1,18 @@
+Pour la machine virtuelle :
+
+javac MachineVirtuelle.java
+
+java MachineVirtuelle sandmark.umz
+
+
+Pour le compilateur :
+
+Notre programme est donc fonctionnel uniquement de cette façon :
+make
+./compiler test/test_stmt_binop
+→ Cela va print dans la console le schéma d'exécution du statement dans le fichier.
+
+Mais on aurait voulu faire de cette manière :
+
+make
+./compiler <fichier code source> <fichier dans lequel on écrit>
